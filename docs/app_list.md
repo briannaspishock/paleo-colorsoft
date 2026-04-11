@@ -2,7 +2,7 @@
 *apps are selected for Fire OS 5 (Android 5.1) compatibility.*
 
 ### core interface
-- **Nova Launcher** (v1.15.20) - minimalist, distraction-free
+- **Nova Launcher** (v5.0.1) - minimalist, distraction-free
 - **Whicons** - applied via Nova/Niagara settings only
 
 ### reading and markup
