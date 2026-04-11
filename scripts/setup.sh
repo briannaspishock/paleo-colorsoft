@@ -25,7 +25,7 @@ adb shell settings put global background_process_limit 2
 
 # --- 3. new UI ---
 # install niagara/nova and launcher hijack
-adb install Niagara_Launcher_v1.15.20.apk
+adb install om.teslacoilsw.launcher_5.0.1-50100_minAPI16(nodpi).apk
 adb install LauncherHijackV403.apk
 # grant accessibility for hijacking the 'home' button
 adb shell settings put secure accessibility_enabled 1
@@ -48,6 +48,7 @@ adb install com.whicons.iconpack.apk
 # android 5.1 compatible legacy builds
 adb install com.overdrive.mobile.android.libby_6.4.0.apk
 adb install com.foxit.mobile.pdf.lite.apk
+adb install com.steadfastinnovation.android.projectpapyrus_3.4.10.apk
 
 # --- 6. screenshot for GitHub ---
 adb shell screenrecord --time-limit 5 /sdcard/test.mp4
