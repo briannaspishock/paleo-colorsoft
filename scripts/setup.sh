@@ -35,6 +35,10 @@ adb shell settings put secure accessibility_enabled 1
 adb shell settings put secure accessibility_display_daltonizer_enabled 1
 adb shell settings put secure accessibility_display_daltonizer 0
 
+# redmoon for overlay
+adb install com.jmstudios.redmoon.apk
+adb shell pm grant com.jmstudios.redmoon android.permission.SYSTEM_ALERT_WINDOW
+
 # CF.lumen: icy bone (R 0.85 G 0.90 B 0.80)
 adb install eu.chainfire.lumen_3.70.apk
 adb shell pm grant eu.chainfire.lumen android.permission.PACKAGE_USAGE_STATS
